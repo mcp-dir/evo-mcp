@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/evo-mcp",
+  "title": "EVO Academia",
+  "description": "Gym management (ABC Evo / W12): members, plans, sales, receivables, check-ins, classes and prospect ",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/evo-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_evo"
+    }
+  ]
+}
